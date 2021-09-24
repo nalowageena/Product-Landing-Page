@@ -1,0 +1,21 @@
+/* *remove the margin of the body */
+body {
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+#nav-bar ul .nav-link a {
+  text-decoration: none;
+  color: #000000;
+}
